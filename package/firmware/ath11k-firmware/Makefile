@@ -8,17 +8,15 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=ath11k-firmware
-PKG_SOURCE_DATE:=2024-03-14
-PKG_SOURCE_VERSION:=795809c7041582bd51bdfaa1f548b916ae8d4382
-PKG_MIRROR_HASH:=d93edc651b641a97ec4f5ed329e15ac110928f863b4afbaae7fcb25953d04544
-PKG_RELEASE:=2
+PKG_SOURCE_DATE:=2024-07-23
+PKG_SOURCE_VERSION:=14fc6d54692aff8110c3acd88f6a7d1bab736659
+PKG_MIRROR_HASH:=20a1b34e189c283d05c7f86b6c2b714b4f4473780482c251ed8f564839ec6ea5
+PKG_RELEASE:=1
+
+PKG_MAINTAINER:=shi jiayang <shi05275@163.com>
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/quic/upstream-wifi-fw.git
-
-PKG_LICENSE_FILES:=LICENSE.qca_firmware
-
-PKG_MAINTAINER:=Robert Marko <robimarko@gmail.com>
+PKG_SOURCE_URL:=https://github.com/JiaY-shi/ath11k-firmware.git
 
 include $(INCLUDE_DIR)/package.mk
 
